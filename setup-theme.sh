@@ -12,7 +12,7 @@ echo "Installing node modules"
 npm install
 
 echo "Renaming theme to $NEWNAME"
-find theme/ -type f -name "*php" -exec sed -i -e "s/THEMENAME/$NEWNAME/g" {} +
+find dist/ -type f -name "*php" -exec sed -i -e "s/THEMENAME/$NEWNAME/g" {} +
 sed -i -e "s/THEMENAME/$NEWNAME/g" package.json
 sed -i -e "s/THEMENAME/$NEWNAME/g" dev/scss/style.scss
 sed -i -e "s/THEMENAME/$NEWNAME/g" Gruntfile.js
