@@ -1,0 +1,18 @@
+// switch to fluid layout. Remove next line for pixel based layout
+$total-width: 100%;
+
+// breakpoints
+$bp-medium:600px;
+$bp-large:960px;
+
+// mobile first!
+
+// tablet
+@media screen and (min-width:$bp-medium) {
+
+}
+
+// Desktop
+@media screen and (min-width:$bp-large) {
+ 
+}

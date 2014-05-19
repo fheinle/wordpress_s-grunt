@@ -1,0 +1,43 @@
+/*!
+Theme Name: THEMENAME
+Theme URI: https://bitbucket.org/tiax/THEMENAME
+Author: Florian Heinle
+Author URI: http://www.florianheinle.de
+Description: THEMENAME, based on _s
+Version: 1.0
+License: GNU General Public License v3
+License URI: License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Domain Path: /languages/
+Text Domain: _s
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+_s is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+@import 'settings';
+@import '_s/reset';
+@import '_s/mixins';
+
+@import '_s/global';
+@import '_s/typography';
+@import '_s/forms';
+@import '_s/menu';
+@import '_s/content';
+@import '_s/postformats';
+@import '_s/media';
+@import '_s/navigation';
+@import '_s/comments';
+@import '_s/widgets';
+@import '_s/infinitescroll';
+
+@import "grid";
+@import "design";
